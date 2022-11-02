@@ -1,21 +1,11 @@
+import { useState } from "react";
+import Data from "./Data";
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [count, setCount] = useState(0);
+  const [text, setText] = useState([]);
+
+  return <section className="section-center"></section>;
 }
 
 export default App;
