@@ -24,9 +24,13 @@ function App() {
         />
 
         <button className="btn" type="submit">
-          Get
+          Geenerate
         </button>
       </form>
+
+      <article className="lorem-text">
+        <p>Hello word/....</p>
+      </article>
     </section>
   );
 }
